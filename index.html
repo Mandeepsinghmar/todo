@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/58688fd07e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="wow/WOW-master/css/libs/animate.css" type="text/css">
+    <script src="WOW-master/dist/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
+    <title>Todoist</title>
+</head>
+<body>
+
+    <div class="main animate__animated animate__fadeInDown animate__delay-0.5s wow fadeInDown">
+        <header class="animate__animated animate__bounceInLeft animate__delay-0.7s wow bounceInLeft"> 
+            <h1>TODOIST</h1>
+            <form class="search">
+                <input type="text" name="search" placeholder="search todos">
+            </form>
+           </header>
+           
+           <form class="add animate__animated animate__bounceInRight animate__delay-0.7s wow bounceInRight">
+            <h3>Add a new todo...</h3>
+
+            <input class="input" type="text" name="add" placeholder="e.g practice coding" />
+          </form>
+          <button class="btntodo">Add to do</button>
+
+            <ul class="todos animate__animated animate__zoomIn animate__delay-0.7s wow zoomIn">
+                <li class="item ">
+                  <span>play basketball</span>
+                  <span class="delete">❌</span>
+                </li>
+                <li class="item">
+        
+                  <span>reading books</span>
+                  <span class="delete">❌</span>
+                </li>
+                <li class="item ">
+                
+                  <span>study</span>
+                  <span class="delete">❌</span>
+                </li>
+                <li class="item ">
+                
+                  <span>coding</span>
+                  <span class="delete">❌</span>
+                </li>
+              </ul>
+
+            </div>
+
+    <footer>
+      <div class="footer">
+        <p class="copyright animate__animated animate__bounceInLeft animate__delay-0.5s wow bounceInLeft">Copyright 2020 Todoist</p>
+        <ul class="social animate__animated animate__bounceInRight animate__delay-0.5s wow bounceInRight">
+
+
+          <li>
+            <a href="https://twitter.com/mandeep_singh_9" target="_blank"> <i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a  href="https://www.instagram.com/themandeepsinghmar/" target="_blank"> <i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/Mandeepsinghmar" target="_blank"> <i class="fab fa-github"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/mandeep-singhmar-7b222117a/" target="_blank"> <i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+ 
+    <script src="app.js"></script>
+</body>
+</html>
